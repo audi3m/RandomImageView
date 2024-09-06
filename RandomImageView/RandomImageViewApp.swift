@@ -11,7 +11,7 @@ import SwiftUI
 struct RandomImageViewApp: App {
     var body: some Scene {
         WindowGroup {
-            RandomSectionImagesView()
+            CoinView()
         }
     }
 }

@@ -28,7 +28,7 @@ struct CoinView: View {
                     filteredCoinList = allCoinList.filter { filterCoin(coin: $0) }
                 }
             }
-            .navigationBar {
+            .navigationBarLeadingTrailingItems {
                 Button("불러오기") {
                     Task {
                         do {

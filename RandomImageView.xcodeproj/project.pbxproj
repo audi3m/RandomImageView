@@ -20,6 +20,8 @@
 		D43A68E72C8A371300ACD6B9 /* NavigationWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43A68E62C8A371300ACD6B9 /* NavigationWrapper.swift */; };
 		D43A68E92C8A37BE00ACD6B9 /* NavigationBarItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43A68E82C8A37BE00ACD6B9 /* NavigationBarItems.swift */; };
 		D43A68EB2C8A400600ACD6B9 /* NavigationLazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43A68EA2C8A400600ACD6B9 /* NavigationLazyView.swift */; };
+		D43A68EE2C8A99CD00ACD6B9 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43A68ED2C8A99CD00ACD6B9 /* CategoryView.swift */; };
+		D43A68F42C8A9E5B00ACD6B9 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43A68F32C8A9E5B00ACD6B9 /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		D43A68E62C8A371300ACD6B9 /* NavigationWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationWrapper.swift; sourceTree = "<group>"; };
 		D43A68E82C8A37BE00ACD6B9 /* NavigationBarItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarItems.swift; sourceTree = "<group>"; };
 		D43A68EA2C8A400600ACD6B9 /* NavigationLazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLazyView.swift; sourceTree = "<group>"; };
+		D43A68ED2C8A99CD00ACD6B9 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		D43A68F32C8A9E5B00ACD6B9 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 				D43A68C62C89CE6E00ACD6B9 /* RandomImageViewApp.swift */,
 				D43A68C82C89CE6E00ACD6B9 /* ContentView.swift */,
 				D43A68E52C8A370200ACD6B9 /* Navigation */,
+				D43A68EC2C8A99BA00ACD6B9 /* Category */,
 				D43A68DB2C89F33D00ACD6B9 /* Coin */,
 				D43A68D82C89E2DA00ACD6B9 /* RandomImage */,
 				D43A68E22C8A327500ACD6B9 /* Extensions */,
@@ -124,6 +129,15 @@
 				D43A68EA2C8A400600ACD6B9 /* NavigationLazyView.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		D43A68EC2C8A99BA00ACD6B9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D43A68ED2C8A99CD00ACD6B9 /* CategoryView.swift */,
+				D43A68F32C8A9E5B00ACD6B9 /* Category.swift */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,12 +212,14 @@
 			files = (
 				D43A68E72C8A371300ACD6B9 /* NavigationWrapper.swift in Sources */,
 				D43A68DF2C8A321F00ACD6B9 /* Coin.swift in Sources */,
+				D43A68EE2C8A99CD00ACD6B9 /* CategoryView.swift in Sources */,
 				D43A68DD2C8A321400ACD6B9 /* CoinView.swift in Sources */,
 				D43A68C92C89CE6E00ACD6B9 /* ContentView.swift in Sources */,
 				D43A68C72C89CE6E00ACD6B9 /* RandomImageViewApp.swift in Sources */,
 				D43A68EB2C8A400600ACD6B9 /* NavigationLazyView.swift in Sources */,
 				D43A68E12C8A324000ACD6B9 /* UPbitAPI.swift in Sources */,
 				D43A68E42C8A328A00ACD6B9 /* Color+Ex.swift in Sources */,
+				D43A68F42C8A9E5B00ACD6B9 /* Category.swift in Sources */,
 				D43A68DA2C89E2F700ACD6B9 /* RandomDetailView.swift in Sources */,
 				D43A68E92C8A37BE00ACD6B9 /* NavigationBarItems.swift in Sources */,
 				D43A68D72C89DEFC00ACD6B9 /* RandomSectionImagesView.swift in Sources */,

@@ -31,7 +31,7 @@ struct NavigationBarWrapper<Leading: View, Trailing: View>: ViewModifier {
 }
 
 extension View {
-    func navigationBar(@ViewBuilder leading: () -> some View, @ViewBuilder trailing: () -> some View) -> some View {
+    func navigationBarLeadingTrailingItems(@ViewBuilder leading: () -> some View, @ViewBuilder trailing: () -> some View) -> some View {
         modifier(NavigationBarWrapper(leading: leading, trailing: trailing))
     }
 }
